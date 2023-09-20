@@ -41,7 +41,6 @@ export const PhoneList = () => {
 const Phone = ({ data }) => {
   return (
     <div className="phone-container">
-      <img className="phone-picture" src={data.img} />
       <h1 className="phone-name">{data.model}</h1>
       <h3 className="phone-company">{data.company}</h3>
       <Button variant="contained">Buy Now</Button>
